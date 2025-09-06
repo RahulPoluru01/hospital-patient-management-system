@@ -40,6 +40,7 @@ A Spring Boot + MySQL project that simulates real-world hospital workflows:
 # some Features with examples
 1. Patient:
    POST /addPatient : Request->Json
+{
    {
     "age": 30,
     "gender": "male",
@@ -59,6 +60,7 @@ Response: [![view patient]/hpms/screenshots/view_patients.png.png](https://githu
 2. Get All Department Doctor Details:
    Get /getAllDepartments
    Response: [![view department]/hpms/screenshots/departments.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/departments.png.png)
+   
 3.Book Appointment :
 Post /{patientId}/{doctorId}/bookAppointment
 Response:
