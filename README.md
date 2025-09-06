@@ -40,6 +40,7 @@ A Spring Boot + MySQL project that simulates real-world hospital workflows:
 # some Features with examples
 1. Patient:
    POST /addPatient : Request->Json
+{
    {
     "age": 30,
     "gender": "male",
@@ -54,22 +55,22 @@ A Spring Boot + MySQL project that simulates real-world hospital workflows:
 Response ->created status:200OK
 
 # Request all patients data :
-<img width="1419" height="836" alt="Screenshot (177)" src="https://github.com/user-attachments/assets/d49864f6-9e89-4ec0-8dbc-3822f5b51d35" />
+Response: [![view patient]/hpms/screenshots/view_patients.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/view_patients.png.png)
 
 2. Get All Department Doctor Details:
    Get /getAllDepartments
-   Response:
-
+   Response: [![view department]/hpms/screenshots/departments.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/departments.png.png)
+   
 3.Book Appointment :
 Post /{patientId}/{doctorId}/bookAppointment
-Response:
+Response: [![Book appointments]/hpms/screenshots/departments.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/appointment.png.png)
 
 4.Get all current appointments of a doctor:
 Post /{doctorId}/getDoctorAppointments
-Response:
+Response:[![view appointments]/hpms/screenshots/departments.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/doctor_appointment.png)
 
 5.Add presciption for appointment
 Post /{appointment_id}/prescription
-Response:
+Response:[![view prescription]/hpms/screenshots/departments.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/precription.png.png)
 
 
