@@ -63,7 +63,7 @@ Response: [![view patient]/hpms/screenshots/view_patients.png.png](https://githu
    
 3.Book Appointment :
 Post /{patientId}/{doctorId}/bookAppointment
-Response: [![Book appointments]/hpms/screenshots/departments.png.png]
+Response: [![Book appointments]/hpms/screenshots/departments.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/appointment.png.png)
 
 4.Get all current appointments of a doctor:
 Post /{doctorId}/getDoctorAppointments
