@@ -67,7 +67,7 @@ Response: [![Book appointments]/hpms/screenshots/departments.png.png](https://gi
 
 4.Get all current appointments of a doctor:
 Post /{doctorId}/getDoctorAppointments
-Response:[![view appointments]/hpms/screenshots/departments.png.png]
+Response:[![view appointments]/hpms/screenshots/departments.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/doctor_appointment.png)
 
 5.Add presciption for appointment
 Post /{appointment_id}/prescription
