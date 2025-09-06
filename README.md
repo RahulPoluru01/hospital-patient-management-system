@@ -42,12 +42,10 @@ A Spring Boot + MySQL project that simulates real-world hospital workflows:
    POST /addPatient
    Response:[![view patient]/hpms/screenshots/addPatient.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/add_patient.png)
 
-Response ->created status:200OK
-
-# Request all patients data :
+Request all patients data :
 Response: [![view patient]/hpms/screenshots/view_patients.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/view_patients.png.png)
 
-2. Get All Department Doctor Details:
+2.Get All Department Doctor Details:
    Get /getAllDepartments
    Response: [![view department]/hpms/screenshots/departments.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/departments.png.png)
    
