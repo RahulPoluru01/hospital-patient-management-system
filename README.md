@@ -63,14 +63,14 @@ Response: [![view patient]/hpms/screenshots/view_patients.png.png](https://githu
    
 3.Book Appointment :
 Post /{patientId}/{doctorId}/bookAppointment
-Response:
+Response: [![Book appointments]/hpms/screenshots/departments.png.png]
 
 4.Get all current appointments of a doctor:
 Post /{doctorId}/getDoctorAppointments
-Response:
+Response:[![view appointments]/hpms/screenshots/departments.png.png]
 
 5.Add presciption for appointment
 Post /{appointment_id}/prescription
-Response:
+Response:[![view prescription]/hpms/screenshots/departments.png.png]
 
 
