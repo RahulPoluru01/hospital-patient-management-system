@@ -71,6 +71,6 @@ Response:[![view appointments]/hpms/screenshots/departments.png.png](https://git
 
 5.Add presciption for appointment
 Post /{appointment_id}/prescription
-Response:[![view prescription]/hpms/screenshots/departments.png.png]
+Response:[![view prescription]/hpms/screenshots/departments.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/precription.png.png)
 
 
