@@ -33,21 +33,21 @@ A Spring Boot + MySQL project that simulates real-world hospital workflows:
 - Spring Boot
 - MySQL
 - Hibernate / JPA
+- postman(for api testing)
 
 ## ERD
 <img width="1126" height="819" alt="Screenshot (176)" src="https://github.com/user-attachments/assets/5d87d50d-e983-4930-a7d5-448b7596e373" />
 
 # some Features with examples
 1. Patient:
-   POST /addPatient
-   Response:[![view patient]/hpms/screenshots/addPatient.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/add_patient.png)
+POST /addPatient
+Response:[![view patient]/hpms/screenshots/addPatient.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/add_patient.png)
 
 Request all patients data :
 Response: [![view patient]/hpms/screenshots/view_patients.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/view_patients.png.png)
 
-2.Get All Department Doctor Details:
-   Get /getAllDepartments
-   Response: [![view department]/hpms/screenshots/departments.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/departments.png.png)
+2.Get All Department Doctor Details: Get /getAllDepartments
+Response: [![view department]/hpms/screenshots/departments.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/departments.png.png)
    
 3.Book Appointment :
 Post /{patientId}/{doctorId}/bookAppointment
