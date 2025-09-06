@@ -54,7 +54,7 @@ A Spring Boot + MySQL project that simulates real-world hospital workflows:
 Response ->created status:200OK
 
 # Request all patients data :
-![view patient]/hpms/screenshots/view_patients.png.png
+[![view patient]/hpms/screenshots/view_patients.png.png](https://github.com/RahulPoluru01/hospital-patient-management-system/blob/main/hpms/screenshots/view_patients.png.png)
 
 2. Get All Department Doctor Details:
    Get /getAllDepartments
