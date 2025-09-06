@@ -37,7 +37,7 @@ A Spring Boot + MySQL project that simulates real-world hospital workflows:
 ## ERD
 <img width="1126" height="819" alt="Screenshot (176)" src="https://github.com/user-attachments/assets/5d87d50d-e983-4930-a7d5-448b7596e373" />
 
-# Features with examples
+# some Features with examples
 1. Patient:
    POST /addPatient : Request->Json
    {
@@ -59,36 +59,17 @@ Response ->created status:200OK
 2. Get All Department Doctor Details:
    Get /getAllDepartments
    Response:
-   {
-        "id": 52,
-        "name": "cardiologist",
-        "description": "heart related treatements",
-        "doctors": 
-            {
-                "id": 1,
-                "specialization": "cardiologist",
-                "availability": "mon-fri",
-                "user": {
-                    "id": 2,
-                    "name": "Rahul",
-                    "email": "rahul21@gmail.com",
-                    "role": "doctor"
-                }
-            },
-         "id": 102,
-         "name": "neurology",
-        "description": "brain related treatements",
-        "doctors": [
-            {
-                "id": 2,
-                "specialization": "neurology",
-                "availability": "mon-fri",
-                "user": {
-                    "id": 3,
-                    "name": "Vishal",
-                    "email": "vishal24@gmail.com",
-                    "role": "doctor"
-                }
-            }
-   }
-   
+
+3.Book Appointment :
+Post /{patientId}/{doctorId}/bookAppointment
+Response:
+
+4.Get all current appointments of a doctor:
+Post /{doctorId}/getDoctorAppointments
+Response:
+
+5.Add presciption for appointment
+Post /{appointment_id}/prescription
+Response:
+
+
